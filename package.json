@@ -1,0 +1,26 @@
+{
+  "name": "header-parser",
+  "version": "1.0.0",
+  "description": "Backend API project for FreeCodeCamp.com. Returns the IP address, language, and operating system for the browser connecting to the API.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine-node spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jskobos/header-parser.git"
+  },
+  "keywords": [
+    "freecodecamp",
+    "api"
+  ],
+  "author": "Jared Kobos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jskobos/header-parser/issues"
+  },
+  "homepage": "https://github.com/Jskobos/header-parser#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
