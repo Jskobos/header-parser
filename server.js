@@ -15,7 +15,7 @@ function createResponseJson(req) {
   let userInfo = req.header('user-agent')
   const regex = new RegExp(/\(.+?\)/)
   userInfo = userInfo.match(regex)[0]
-  response.ipaddress = req.ip
+  response.ipaddress = req.ip.substring(7)
   response.language = req.header('accept-language').substring(0,5)
   response.software = userInfo.substring(1,userInfo.length-1)
 

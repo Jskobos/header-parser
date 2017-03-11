@@ -30,5 +30,12 @@ describe("Header parser", function() {
         done();
       });
     });
+    it("returns the correct ip address", function(done) {
+      request.get(options, function(error, response, body) {
+        body = JSON.parse(body)
+        expect(body['ipaddress']).toMatch("127.0.0.1");
+        done();
+      });
+    });
   });
 });
