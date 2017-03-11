@@ -22,5 +22,9 @@
   "homepage": "https://github.com/Jskobos/header-parser#readme",
   "dependencies": {
     "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "request": "^2.81.0"
   }
 }
